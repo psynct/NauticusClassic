@@ -1,0 +1,43 @@
+﻿## Interface: 11304
+## Title: NauticusClassic
+## Author: psynct
+## Version: 1.3.1
+## Notes: Tracks the precise arrival & departure schedules of boats and Zeppelins around Azeroth and displays them on the Mini-Map and World Map in real-time
+## Notes-deDE: Verfolgt die genaue Position sowie Ankunfts- und Abfahrtszeiten von Booten und Zeppelinen in Azeroth an und zeigt sie auf der Minikarte und der Weltkarte in Echtzeit an
+## Notes-ptBR: Rastreia os horários precisos de chegada e partida de barcos e zepelins em torno de Azeroth e os exibe no minimapa e no Mapa-múndi em tempo real.
+## Notes-frFR: Permet de suivre les arrivées et départs des bateaux et zeppelins sur Azeroth et de les afficher en temps réel sur la carte du monde et la minicarte
+## Notes-ruRU: Следит за прибытием и отправлением кораблей и дирижаблей в Азероте и показывает их на миникарте и карте мира
+## Notes-zhCN: 追踪环绕艾泽拉斯的飞艇及船只正确抵达及离开的时间，并实时显示在世界地图与小地图上
+## Notes-zhTW: 追蹤環繞艾澤拉斯的飛艇及船隻正確抵達及離開的時間，並即時顯示在世界地圖與小地圖上
+## Notes-esES: Sigue con precisión los horarios de llegada y salida de barcos y zepelines en todo Azeroth y los muestra en el Mini-Mapa y Mapa del Mundo en tiempo real
+## Notes-esMX: Sigue con precisión los horarios de llegada y salida de barcos y zepelines en todo Azeroth y los muestra en el Mini-Mapa y Mapa del Mundo en tiempo real
+## OptionalDeps: Ace3, LibDBIcon-1.0, Titan
+## DefaultState: Enabled
+## LoadOnDemand: 0
+## SavedVariables: NauticusClassic5DB
+## X-Category: Maps
+
+#@no-lib-strip@
+Libs\LibStub\LibStub.lua
+Libs\CallbackHandler-1.0\CallbackHandler-1.0.xml
+Libs\AceAddon-3.0\AceAddon-3.0.xml
+Libs\AceDB-3.0\AceDB-3.0.xml
+Libs\AceConsole-3.0\AceConsole-3.0.xml
+Libs\AceGUI-3.0\AceGUI-3.0.xml
+Libs\AceConfig-3.0\AceConfig-3.0.xml
+Libs\AceComm-3.0\AceComm-3.0.xml
+Libs\AceEvent-3.0\AceEvent-3.0.xml
+Libs\AceTimer-3.0\AceTimer-3.0.xml
+Libs\AceLocale-3.0\AceLocale-3.0.xml
+Libs\LibDBIcon-1.0\LibDBIcon-1.0.lua
+#@end-no-lib-strip@
+Libs\LibDataBroker-1.1\LibDataBroker-1.1.lua
+Libs\HereBeDragons\HereBeDragons-2.0.lua
+Libs\HereBeDragons\HereBeDragons-Pins-2.0.lua
+Libs\LibSimpleFrame-Mod-1.0\lib.xml
+
+Locales\Locales.xml
+NautCore.lua
+data.lua
+NautComms.lua
+NautUI.lua
