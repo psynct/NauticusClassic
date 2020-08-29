@@ -42,8 +42,8 @@ L["Alarm delay"] = "Délai d'alarme"
 L["Change the alarm delay (in seconds)."] = "Changer le délai d'alarme (en secondes)."
 L["Mini-Map button"] = "Bouton de la minicarte"
 L["Toggle the Mini-Map button."] = "Afficher le bouton de la minicarte"
-L["Broadcast channel"] = true
-L["Channel to broadcast your currently tracked transport (will broadcast to \"%s\" if the selected channel is unavailable)."] = true -- %s=channel
+L["Broadcast channel"] = "Canal de diffusion"
+L["Channel to broadcast your currently tracked transport (will broadcast to \"%s\" if the selected channel is unavailable)."] = "Canal pour diffuser votre transport actuellement suivi (diffusera vers \"% s\" si la canal sélectionnée n'est pas disponible)." -- %s=channel
 
 -- miscellaneous
 L["Arrival"] = "Arrivée"
@@ -64,7 +64,7 @@ L["List relevant to current zone only"] = "Ne montrer que les transports de la z
 L["Shows only transports relevant to your current zone."] = "Ne montrer que les transports de la zone courante." -- re do?
 L["Hint: Click to cycle transport."] = "Astuce: Cliquez pour changer de transport."
 L["Alt-Click to set up alarm."] = "Alt-Clic pour créer une alarme."
-L["Ctrl-Click to broadcast in %s."] = true
+L["Ctrl-Click to broadcast in %s."] = "Ctrl-clic pour diffuser dans %s."
 L["New version available! Visit github.com/psynct/NauticusClassic"] = "Nouvelle version disponible ! Visitez github.com/psynct/NauticusClassic"
 
 -- ship names
@@ -123,8 +123,8 @@ L["SW"] = "SW" -- Stormwind City
 L["IF"] = "IF" -- Ironforge
 
 -- channels
-L["Say"] = true
-L["Yell"] = true
-L["Party"] = true
-L["Raid"] = true
-L["Guild"] = true
+L["Say"] = "Dit"
+L["Yell"] = "Crie"
+L["Party"] = "Groupe"
+L["Raid"] = "Raid"
+L["Guild"] = "Guilde"
