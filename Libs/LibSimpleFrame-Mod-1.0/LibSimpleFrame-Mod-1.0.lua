@@ -394,7 +394,7 @@ function lib:New(name, options, id, parent)
 	if lib.registry[name] then
 		frame = self.registry[name]
 	else
-		frame = CreateFrame("Frame", name, parent or UIParent)
+		frame = CreateFrame("Frame", name, parent or UIParent, "BackdropTemplate")
 		frame.lines = {}
 		self.registry[name] = frame
 	end
